@@ -1,8 +1,12 @@
-{	"extensionName": "Arduino",
+{	"extensionName": "NanoTimer",
+	"description": "EEG Timer",
+	"version": "1.0",
+	"author": "Jason Snow",
+	"homepage": "http://stembot.vn/products/wibot",
 	"sort":1,
 	"extensionPort": 0,
-	"firmware":"1.1.103",
-	"javascriptURL":"js/arduino.js",
+	"firmware":"1.0.0",
+	"javascriptURL":"js/NanoTimer.js",
 	"blockSpecs": [
 		["h","Arduino Program","runArduino"],
 		
