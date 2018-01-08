@@ -8,8 +8,7 @@
 	"firmware":"1.0.0",
 	"javascriptURL":"js/NanoTimer.js",
 	"blockSpecs": [
-		["h","Arduino Program","runArduino"],
-		
+		["h","NanoTimer Program","runArduino"],
 		["B", "read digital pin %n","getDigital","9",
 		{"encode":"{d0}","setup":"pinMode({0},INPUT);\n","inc":"","def":"","work":"digitalRead({0})","loop":""}],
 		
@@ -78,6 +77,7 @@
 			"C8":4186,"D8":4699,
 		"Half":500,"Quarter":250,"Eighth":125,"Whole":1000,"Double":2000,"Zero":0
 	},
+
 	"translators":{
 	}
 }

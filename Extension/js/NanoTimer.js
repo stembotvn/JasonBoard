@@ -239,7 +239,7 @@
             tryNextDevice();
             return;
         }
-        device.set_receive_handler('arduino',processData);
+        device.set_receive_handler('NanoTimer',processData);
     };
 
     ext._deviceRemoved = function(dev) {
@@ -259,5 +259,5 @@
     }
 
     var descriptor = {};
-	ScratchExtensions.register('Arduino', descriptor, ext, {type: 'serial'});
+	ScratchExtensions.register('NanoTimer', descriptor, ext, {type: 'serial'});
 })({});
